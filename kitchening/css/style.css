@@ -162,7 +162,8 @@
 }
 
 
-@media screen and (min-device-width : 768px) and (max-device-width : 1024px){
+
+@media screen and (min-device-width : 768px) and (max-device-width : 1023px){
 
     /* reglas CSS para tablet*/
     body{
@@ -285,24 +286,28 @@
     }
 }
 
-@media (min-width: 1025px) 
+@media (min-width: 1024px)
 {
     html{
-        margin-left: 5%;
         margin-right: 5%;
+        margin-left: 5%;
     }
+    
+
      /* reglas CSS para DESKTOP */
-     body{
+     body
+     {
         font-family: 'Roboto', sans-serif;
         background-image: url(../images/bg-body.png);
     }
+
     .container{
         display: block;
         margin-left: 0%;
         margin-right: 0%;
         position: relative;
     }
-    
+
     .main-header{
         position: relative;
         margin-left: 0%;
@@ -316,7 +321,7 @@
         margin-right: auto;
         display: block;
     }
-    
+
     .main-nav{
         text-align: center;
     }
@@ -326,7 +331,7 @@
 
     .main-nav ul li {
         display: inline;
-        margin-inline: 1%;
+        
         background-color: rgb(36, 36, 36);
         text-decoration: none;
         padding: 1%;
@@ -347,7 +352,7 @@
         margin-right: 0;
         position: relative;
     }
-    
+
     .banner img{
         display:block;
         width: 100%;
@@ -387,8 +392,8 @@
         height: auto;
         left: 0%;
         bottom: 40%;
-        color: rgb(1, 1, 1, 0.9);
-        background-color: grey;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.418);
         text-decoration: none;
         right: 0%;
         text-align: center;
@@ -404,7 +409,6 @@
         margin: 0;
         text-align: center;
     }
-   
 
     .main-footer ul {
         font-weight: bold;
