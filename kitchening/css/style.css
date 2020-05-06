@@ -257,9 +257,14 @@
         top: 0%;
     }
     .zoom{
+        text-decoration: none;
+        width: 100%;
+        text-align: center;
         top: 50%;
         position: absolute;
-        left: 40%;
+        left: 0%;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.418);
     }
     .more{
         text-decoration: none;
