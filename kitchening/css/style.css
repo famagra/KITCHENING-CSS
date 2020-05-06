@@ -382,9 +382,16 @@
         top: 0%;
     }
     .zoom{
-        top: 50%;
         position: absolute;
-        left: 40%;
+        width: auto;
+        height: auto;
+        left: 0%;
+        bottom: 40%;
+        color: rgb(1, 1, 1, 0.9);
+        background-color: grey;
+        text-decoration: none;
+        right: 0%;
+        text-align: center;
     }
     .more{
         text-decoration: none;
@@ -428,5 +435,6 @@
         position: relative;
         
     }
+  
 
 }
